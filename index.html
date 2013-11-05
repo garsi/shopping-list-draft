@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+	<title>Shopping List</title>
+</head>
+<body>
+	<script type="text/javascript" src="shopping.js"></script>
+	<header>
+		<h1>Shopping List</h1>
+	</header>
+	<article>
+		<form name="items">
+					<label>Add item:</label>
+					<input type="text" name="newitem" id="item" class="error">
+					<input type="button" name="submit" id="submit" value="ADD">
+		</form>
+		<div class="list">
+			<ul>
+				<li class="unchecked"> <input type="checkbox">New item example</li>
+				<li class="checked"> <input type="checkbox">Checked item example></li>
+				<span class="added"></span>
+				<!--testing: <li> <input type="checkbox" class="unchecked"><span class="added">new item</span></li>-->
+			</ul>
+		</div>
+	</article>
+
+
+</body>
+</html>		
